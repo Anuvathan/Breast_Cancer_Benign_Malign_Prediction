@@ -2,16 +2,23 @@
 
 This repository contains code and resources for reproducing the results of the research paper titled "Breast cancer classification using machine learning" which can be found at [https://ieeexplore.ieee.org/abstract/document/8391453](https://ieeexplore.ieee.org/abstract/document/8391453). The research focuses on the prediction of breast cancer malignancy using various machine learning algorithms.
 
+## Group Members
+
+- **Anuvathan S.**
+- **Kajamohan K.**
+- **Ragul P.**
+
 ## Dataset
 
-The dataset used in this project is the Wisconsin Breast Cancer dataset, commonly referred to as the "WBCD" dataset. It consists of 699 total instances, representing breast cancer cell samples. Prior to model input, 16 instances with null values were removed from the dataset to ensure data integrity and reliability. Each instance in the dataset is characterized by multiple features, ninecharacteristics which are: 
-1. Determine the layered structures(Clump Thickness); 
-2. Evaluate the sample size and its consistency (Uniformity of Cell Size); 
-3. Estimate the equality of cell shapes and identifies marginal variances, because cancer cells tend to vary in shape (Uniformity of Cell Shape); 
-4. Cancer cells spread all over the organ and normal cells are connected to each other (Marginal Adhesion); 
-5. Measure of the uniformity, enlarged epithelial cells are a sign of malignancy (Single Epithelial Cell Size); 
-6. In benign tumors nuclei is not surrounded by cytoplasm (Bare Nuclei); 
-7. Describes the nucleus texture, in benign cells it has a uniform shape. The chromatin tends to be coarser in tumors (Bland Chromatin); 
+The dataset used in this project is the Wisconsin Breast Cancer dataset, commonly referred to as the "WBCD" dataset. It consists of 699 total instances, representing breast cancer cell samples. Prior to model input, 16 instances with null values were removed from the dataset to ensure data integrity and reliability. Each instance in the dataset is characterized by multiple features, ninecharacteristics which are:
+
+1. Determine the layered structures(Clump Thickness);
+2. Evaluate the sample size and its consistency (Uniformity of Cell Size);
+3. Estimate the equality of cell shapes and identifies marginal variances, because cancer cells tend to vary in shape (Uniformity of Cell Shape);
+4. Cancer cells spread all over the organ and normal cells are connected to each other (Marginal Adhesion);
+5. Measure of the uniformity, enlarged epithelial cells are a sign of malignancy (Single Epithelial Cell Size);
+6. In benign tumors nuclei is not surrounded by cytoplasm (Bare Nuclei);
+7. Describes the nucleus texture, in benign cells it has a uniform shape. The chromatin tends to be coarser in tumors (Bland Chromatin);
 8. In normal cells, the nucleolus is usually invisible and very small. In cancer cells, there are more than one nucleoli and it becomes much more prominent, (Normal Nucleoli);
 9. Estimate of the number of mitosis that has taken place. The larger the value, the greater is the chance of malignancy (Mitoses)
 
@@ -62,4 +69,3 @@ To run the code and reproduce the results, follow the instructions in the `/code
 ## Citation
 
 If you use this code or dataset in your research, please consider citing the original research paper:
-
