@@ -2,12 +2,6 @@
 
 This repository contains code and resources for reproducing the results of the research paper titled "Breast cancer classification using machine learning" which can be found at [https://ieeexplore.ieee.org/abstract/document/8391453](https://ieeexplore.ieee.org/abstract/document/8391453). The research focuses on the prediction of breast cancer malignancy using various machine learning algorithms.
 
-## Group Members
-
-- **Anuvathan S.**
-- **Kajamohan K.**
-- **Ragul P.**
-
 ## Dataset
 
 The dataset used in this project is the Wisconsin Breast Cancer dataset, commonly referred to as the "WBCD" dataset. It consists of 699 total instances, representing breast cancer cell samples. Prior to model input, 16 instances with null values were removed from the dataset to ensure data integrity and reliability. Each instance in the dataset is characterized by multiple features, ninecharacteristics which are:
